@@ -1,5 +1,8 @@
+using BlogPessoal.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Repositories;
 
 /// <summary>
 /// Interface p/ repo de postagem

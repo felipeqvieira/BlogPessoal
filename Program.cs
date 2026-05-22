@@ -6,6 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using BlogPessoal.Config;
+using BlogPessoal.Data;
+using BlogPessoal.Middlewares;
+using BlogPessoal.Models;
+using BlogPessoal.Repositories;
+using BlogPessoal.Services;     
+using BlogPessoal.Services.IA; 
 
 var builder = WebApplication.CreateBuilder(args);
 

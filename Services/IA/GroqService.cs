@@ -1,3 +1,6 @@
+using BlogPessoal.DTOs.IA;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -5,8 +8,8 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+
+namespace BlogPessoal.Services.IA;
 
 /// <summary>
 /// Integração assíncrona com a API externa do Groq p/ análise do texto da postagem.

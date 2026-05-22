@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.Services.IA;
+
 /// <summary>
 /// Objeto de Transferência de Dados (DTO) focado em receber requisições independentes 
 /// para processamento e sumarização de texto via IA.

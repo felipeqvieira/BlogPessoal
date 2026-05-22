@@ -1,3 +1,5 @@
+namespace BlogPessoal.DTOs.Usuario;
+
 /// <summary>
 /// DTO de saída. Representa o perfil público de um usuário.
 /// </summary>

@@ -1,6 +1,8 @@
+using BlogPessoal.Services.IA;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
+
+namespace BlogPessoal.Controllers;
 
 [ApiController]
 [Route("api/ia")]

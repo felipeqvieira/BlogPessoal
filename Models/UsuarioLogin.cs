@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.Models;
+
 /// <summary>
 /// Transporta as credenciais de acesso do cliente para o servidor durante 
 /// o processo de autenticação.

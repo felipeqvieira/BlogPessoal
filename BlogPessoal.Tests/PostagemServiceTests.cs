@@ -1,5 +1,12 @@
 namespace BlogPessoal.Tests;
 
+using BlogPessoal.DTOs.Postagem;
+using BlogPessoal.DTOs.Tema;
+using BlogPessoal.DTOs.IA;
+using BlogPessoal.Models;
+using BlogPessoal.Repositories;
+using BlogPessoal.Services;     // <--- ADICIONAR
+using BlogPessoal.Services.IA;  // <--- ADICIONAR
 using FluentAssertions;
 using NSubstitute;
 using System.Collections.Generic;

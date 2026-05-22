@@ -1,4 +1,8 @@
+using BlogPessoal.DTOs.Usuario;
+using BlogPessoal.Models;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Define o contrato abstrato para as regras de negócio, autenticação e gestão de ciclo de vida dos usuários.

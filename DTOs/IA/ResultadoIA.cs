@@ -1,3 +1,5 @@
+namespace BlogPessoal.DTOs.IA;
+
 /// <summary>
 /// DTO interno utilizado para mapear e estruturar a resposta em formato JSON
 /// proveniente da integração com a Inteligência Artificial.

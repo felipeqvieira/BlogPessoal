@@ -1,7 +1,12 @@
+using BlogPessoal.DTOs.Usuario;
+using BlogPessoal.Models;
+using BlogPessoal.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Controllers;
 
 /// <summary>
 /// Controlador -> gerencia identidade, autenticação e perfil dos usuários.

@@ -1,5 +1,10 @@
+using BlogPessoal.DTOs.Tema;
+using BlogPessoal.Models;
+using BlogPessoal.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Implementação concreta da camada de serviço responsável por gerir as regras de domínio da entidade <see cref="Tema"/>.

@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.DTOs.Tema;
+
 /// <summary>
 /// DTO p/ receber informações do cliente ao criar ou atualizar 
 /// uma categoria (Tema).

@@ -1,5 +1,7 @@
-using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace BlogPessoal.Models;
 
 /// <summary>
 ///  Assunto ao qual uma ou mais postagens pertencem.

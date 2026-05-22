@@ -1,7 +1,11 @@
+using BlogPessoal.Data;
+using BlogPessoal.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Repositories;
 
 /// <summary>
 /// Repositório p/ a manipulação de dados da entidade <see cref="Postagem"/> utilizando Entity Framework Core

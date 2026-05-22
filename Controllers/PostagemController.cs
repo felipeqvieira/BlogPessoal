@@ -1,9 +1,13 @@
+using BlogPessoal.DTOs.Postagem;
+using BlogPessoal.Models;
+using BlogPessoal.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Controllers;
 
 /// <summary>
 /// Controlador -> Gerenciar as requisições HTTP relacionadas às Postagens do blog.

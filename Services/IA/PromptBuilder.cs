@@ -1,3 +1,5 @@
+namespace BlogPessoal.Services.IA;
+
 /// <summary>
 /// Classe utilitária estática responsável por construir, formatar e padronizar 
 /// o prompt enviado para a IA

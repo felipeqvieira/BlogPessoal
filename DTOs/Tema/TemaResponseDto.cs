@@ -1,3 +1,5 @@
+namespace BlogPessoal.DTOs.Tema;
+
 /// <summary>
 /// DTO p/ enviar as informações públicas de um Tema de volta para
 /// o cliente, ocultando propriedades internas de navegação.

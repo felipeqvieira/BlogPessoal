@@ -1,6 +1,10 @@
+using BlogPessoal.DTOs.Tema;
+using BlogPessoal.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Controllers;
 
 /// <summary>
 /// Controlador -> Gerencia as requisições HTTP relacionadas aos Temas do blog.

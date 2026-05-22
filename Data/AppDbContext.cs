@@ -1,6 +1,9 @@
+using BlogPessoal.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+
+namespace BlogPessoal.Data;
 
 /// <summary>
 /// Contexto principal de banco de dados da aplicação.

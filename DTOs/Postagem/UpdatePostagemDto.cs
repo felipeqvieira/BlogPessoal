@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.DTOs.Postagem;
+
 /// <summary>
 /// DTO projetado p/ atualizações parciais (PATCH/PUT) de uma postagem.
 /// Todos os campos são opcionais.

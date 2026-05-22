@@ -1,5 +1,7 @@
 using System;
 
+namespace BlogPessoal.DTOs.Postagem;
+
 /// <summary>
 /// DTO de saída. Responsável por formatar os dados da postagem 
 /// para o Swagger, garantindo que as complexas entidades de banco de dados 

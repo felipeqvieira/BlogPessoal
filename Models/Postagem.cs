@@ -1,5 +1,7 @@
 using System;
-using System.ComponentModel.DataAnnotations; // regras nas propriedades
+using System.ComponentModel.DataAnnotations;
+
+namespace BlogPessoal.Models;
 
 /// <summary>
 /// Representa uma publicação no blog

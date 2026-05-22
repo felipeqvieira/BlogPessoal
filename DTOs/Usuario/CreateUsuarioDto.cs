@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.DTOs.Usuario;
+
 /// <summary>
 /// DTO p/ o registro de um novo usuário.
 /// Contém as credenciais mínimas obrigatórias para a criação de um ID no sistema.

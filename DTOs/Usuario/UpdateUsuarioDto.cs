@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace BlogPessoal.DTOs.Usuario;
+
 /// <summary>
 /// DTO p/ atualização de perfil de usuário.
 /// Não trata e-mail e senha aqui.

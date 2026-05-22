@@ -1,9 +1,14 @@
+using BlogPessoal.Config;
+using BlogPessoal.DTOs.Usuario;
+using BlogPessoal.Models;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Implementação concreta da camada de serviço responsável por gerenciar a identidade, 

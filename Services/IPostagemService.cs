@@ -1,5 +1,9 @@
+using BlogPessoal.DTOs.Postagem;
+using BlogPessoal.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Define o contrato de regras de negócio e orquestração para a entidade <see cref="Postagem"/>.

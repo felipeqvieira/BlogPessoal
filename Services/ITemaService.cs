@@ -1,5 +1,9 @@
+using BlogPessoal.DTOs.Tema;
+using BlogPessoal.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Define o contrato abstrato para as regras de negócio e gerenciamento da entidade <see cref="Tema"/>.

@@ -1,4 +1,7 @@
+using BlogPessoal.DTOs.IA;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services.IA;
 
 /// <summary>
 /// Define o contrato abstrato para os serviços de integração com IA.

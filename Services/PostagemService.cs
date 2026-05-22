@@ -1,5 +1,12 @@
+using BlogPessoal.DTOs.Postagem;
+using BlogPessoal.Models;
+using BlogPessoal.Repositories;
+using BlogPessoal.Services.IA;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace BlogPessoal.Services;
 
 /// <summary>
 /// Implementação concreta da camada de serviços para a entidade <see cref="Postagem"/>.
@@ -22,7 +29,7 @@ public class PostagemService(
         {
             Titulo    = dto.Titulo,
             Texto     = dto.Texto,
-            TemaId    = dto.TemaId,
+            TemaId    = dto.TemaId ?? 0,
             UsuarioId = usuarioId
         };
 
